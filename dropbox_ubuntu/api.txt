@@ -1,0 +1,9 @@
+curl "http://sms.api.bz/fetion.php?username=18858298271&password=wang113.&sendto=18858298271&message=短信内容"
+http://sms.api.bz/fetion.php?username=飞信号&password=飞信密码&sendto=收信人&message=信息内容 
+本飞信接口是基于HTTP协议的接口，可以在任何支持HTTP协议的程序中使用。开发此接口的主要目的是方便一些不能用PHP的朋友们使用飞信接口，另外可以避免飞信不断升级导致的源程序不可用。本接口同时支持HTTPS，可避免在网络传输中泄漏数据。 （1）飞信接口调用方式，参数同时支持GET、POST两种方式 http://quanapi.sinaapp.com/fetion.php?u=飞信登录手机号&p=飞信登录密码&to=接收飞信的手机号&m=飞信内容 9月3日更新： to参数支持多个接收人，方便群发。多个接收人号码用逗号隔开，如to=13800000000,13811111111,13822222222，支持最多10个接收人。
+
+http://quanapi.sinaapp.com/fetion.php?u=18858298271&p=wang113.&to=18858298271&m=飞信内容
+
+http://sms.api.bz/fetion.php?username=18858298271&password=wang113.&sendto=%s&message=%s
+
+http://quanapi.sinaapp.com/fetion.php?u=18858298271&p=wang113.&to=%s&m=%s

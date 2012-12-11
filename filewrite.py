@@ -1,0 +1,6 @@
+file1 = file('write.txt','w')
+file1.write('no 1\n')
+file1.write('no 2\n')
+file1.write('no 3\n')
+file1.writelines('no 4\n')
+file1.close()
